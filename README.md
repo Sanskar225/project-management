@@ -7,7 +7,6 @@ Follow the [video tutorial on YouTube](https://www.youtube.com/watch?v=KAV8vo7hG
 
 ## Join Our Community
 
-For discussion and support for this specific app, join our [Discord community](https://discord.com/channels/1070200085440376872/1082900634442940416/threads/1282730219488280576).
 
 ## Technology Stack
 
