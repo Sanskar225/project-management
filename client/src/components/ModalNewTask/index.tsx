@@ -8,7 +8,6 @@ type Props = {
   onClose: () => void;
   id?: string | null;
 };
-
 const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
   const [createTask, { isLoading }] = useCreateTaskMutation();
   const [title, setTitle] = useState("");
@@ -21,10 +20,8 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
   const [authorUserId, setAuthorUserId] = useState("");
   const [assignedUserId, setAssignedUserId] = useState("");
   const [projectId, setProjectId] = useState("");
-
   const handleSubmit = async () => {
     if (!title || !authorUserId || !(id !== null || projectId)) return;
-
     const formattedStartDate = formatISO(new Date(startDate), {
       representation: "complete",
     });
@@ -88,8 +85,8 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
           >
             <option value="">Select Status</option>
             <option value={Status.ToDo}>To Do</option>
-            <option value={Status.WorkInProgress}>Work In Progress</option>
-            <option value={Status.UnderReview}>Under Review</option>
+            <option value={Status.WorkInProgress}>on going</option>
+            <option value={Status.UnderReview}>Testing under review</option>
             <option value={Status.Completed}>Completed</option>
           </select>
           <select
