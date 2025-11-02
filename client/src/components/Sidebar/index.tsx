@@ -183,7 +183,7 @@ const Sidebar = () => {
             className="self-start rounded bg-blue-400 px-4 py-2 text-xs font-bold text-white hover:bg-blue-500 md:block"
             onClick={handleSignOut}
           >
-            Sign out
+            Exit
           </button>
         </div>
       </div>
