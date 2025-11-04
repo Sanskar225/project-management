@@ -27,38 +27,38 @@ const TaskCard = ({ task }: Props) => {
         </div>
       )}
       <p>
-        <strong>ID:</strong> {task.id}
+        <strong>ID :</strong> {task.id}
       </p>
       <p>
-        <strong>Title:</strong> {task.title}
+        <strong>Title :</strong> {task.title}
       </p>
       <p>
-        <strong>Description:</strong>{" "}
+        <strong>Description :</strong>{" "}
         {task.description || "No description provided"}
       </p>
       <p>
-        <strong>Status:</strong> {task.status}
+        <strong>Status :</strong> {task.status}
       </p>
       <p>
-        <strong>Priority:</strong> {task.priority}
+        <strong>Priority :</strong> {task.priority}
       </p>
       <p>
-        <strong>Tags:</strong> {task.tags || "No tags"}
+        <strong>Tags :</strong> {task.tags || "No tags"}
       </p>
       <p>
-        <strong>Start Date:</strong>{" "}
+        <strong>Start Date :</strong>{" "}
         {task.startDate ? format(new Date(task.startDate), "P") : "Not set"}
       </p>
       <p>
-        <strong>Due Date:</strong>{" "}
+        <strong>Due Date :</strong>{" "}
         {task.dueDate ? format(new Date(task.dueDate), "P") : "Not set"}
       </p>
       <p>
-        <strong>Author:</strong>{" "}
+        <strong>Author :</strong>{" "}
         {task.author ? task.author.username : "Unknown"}
       </p>
       <p>
-        <strong>Assignee:</strong>{" "}
+        <strong>Assignee :</strong>{" "}
         {task.assignee ? task.assignee.username : "Unassigned"}
       </p>
     </div>
