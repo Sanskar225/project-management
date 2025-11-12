@@ -1,6 +1,6 @@
 # Project Management Application
 
-A full-stack project management application built with Next.js, Express, PostgreSQL, and AWS services. This application provides comprehensive project tracking, task management, team collaboration, and real-time updates.
+A full-stack project management application built with Next.js, Express, PostgreSQL, and AWS services. This application provides comprehensive project tracking, task management, team collaboration, and real-time updates
 
 ## Table of Contents
 
